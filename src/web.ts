@@ -14,7 +14,7 @@ export class AudioPluginWeb extends WebPlugin implements AudioPluginPlugin {
   audios: any[]
   info: object
   playList(items: object[]) {
-      this.audios = items.map((v: {src: string}, i) => {
+      this.audios = items.map((v: {src: string}, _) => {
           let audio = new Audio()
           audio.src = v.src
           audio.load()
