@@ -103,10 +103,10 @@ public class AudioPlugin: CAPPlugin {
         self.audioPlayer?.play()
     }
     
-    @objc func pause() {
+    @objc func pausePlay(_ call: CAPPluginCall) {
         self.audioPlayer?.pause()
     }
-    @objc func resume() {
+    @objc func resumePlay(_ call: CAPPluginCall) {
         self.audioPlayer?.play()
     }
 }

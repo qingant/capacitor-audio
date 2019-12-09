@@ -6,6 +6,6 @@
 CAP_PLUGIN(AudioPlugin, "Audio",
            CAP_PLUGIN_METHOD(playList, CAPPluginReturnPromise);
            CAP_PLUGIN_METHOD(setPlaying, CAPPluginReturnPromise);
-           CAP_PLUGIN_METHOD(pause, CAPPluginReturnPromise);
-           CAP_PLUGIN_METHOD(resume, CAPPluginReturnPromise);
+           CAP_PLUGIN_METHOD(pausePlay, CAPPluginReturnPromise);
+           CAP_PLUGIN_METHOD(resumePlay, CAPPluginReturnPromise);
 )

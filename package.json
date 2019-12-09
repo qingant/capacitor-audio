@@ -1,6 +1,6 @@
 {
   "name": "capacitor-audio",
-  "version": "0.0.3",
+  "version": "0.0.5",
   "description": "Audio plugin for capacitor enable background playing and control center integration",
   "main": "dist/esm/index.js",
   "types": "dist/esm/index.d.ts",
